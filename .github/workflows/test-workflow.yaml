@@ -3,9 +3,8 @@ name: Hello world workflow
 on:
   push:
     branches:
-      - main
-    
-  pull request:
+      - main 
+  pull_request:
     branches:
       - main
   workflow_dispatch:
